@@ -1,0 +1,17 @@
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@mixin displayF {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin displayG {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
